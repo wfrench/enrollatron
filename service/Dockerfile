@@ -11,6 +11,7 @@ RUN apt-get install -y \
     libfreetype6-dev \
     zlib1g-dev \
     net-tools \
+    mysql-client \
     vim
 
 RUN mkdir /code
